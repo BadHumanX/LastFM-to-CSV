@@ -1,0 +1,13 @@
+# Ignore credential files
+secrets.json
+config.env
+credentials.py
+*.env
+*.csv
+.pytest_cache
+*.vscode
+*.bat
+*.txt
+*.db
+logs/
+*.lnk
