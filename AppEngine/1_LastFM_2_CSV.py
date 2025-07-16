@@ -23,6 +23,8 @@ network = pylast.LastFMNetwork(
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 DB_PATH = os.path.join(BASE_DIR, "..", "DataBases", "All_Scrobble_DataBase.db")
+OUTPUT_DIR = os.path.join(BASE_DIR, "..", "Output")
+os.makedirs(OUTPUT_DIR, exist_ok=True)
 
 def show_latest_db_played_time():
     if not os.path.exists(DB_PATH):
@@ -146,6 +148,7 @@ def main():
         start_str = datetime.fromtimestamp(time_from).strftime("%d %B %Y")
         end_str = datetime.fromtimestamp(time_to).strftime("%d %B %Y")
         csv_filename = f"scrobbles ({start_str} to {end_str}).csv"
+        csv_path = os.path.join(OUTPUT_DIR, csv_filename)
     else:
         csv_filename = "scrobbles_all_time.csv"
 
@@ -158,8 +161,8 @@ def main():
         print("[✗] No scrobbles found.")
         return
 
-    save_csv(final_scrobbles, csv_filename)
-    print(f"[✓] Saved {len(final_scrobbles)} scrobbles to {csv_filename}")
+    save_csv(final_scrobbles, csv_path)
+    print(f"[✓] Saved {len(final_scrobbles)} scrobbles to {csv_path}")
 
 if __name__ == "__main__":
     main()
