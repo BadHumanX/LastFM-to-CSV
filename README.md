@@ -20,7 +20,7 @@ Built with Python and Tkinter for an easy-to-use GUI.
     - ✅ `Playcount` shows **how many times** you played the same track
     - 🕒 `Played Time` reflects the **most recent play**
     - ❤️ `Loved` is set to 1 if **any** of the plays were loved
-    
+
     This keeps your data **clean and compact**, without duplicates.
     
     </details>
