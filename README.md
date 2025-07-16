@@ -32,7 +32,7 @@ If running from source code:
 
 ```bash
 pip install requests tkcalendar
-
+```bash
 
 Python 3.9 or higher
 
