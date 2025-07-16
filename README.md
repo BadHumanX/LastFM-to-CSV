@@ -11,8 +11,23 @@ Built with Python and Tkinter for an easy-to-use GUI.
 - Select a **date range** using a calendar widget
 - Detect and mark **loved tracks**
 - Consolidate play counts for repeated tracks
+      <details>
+      <summary>🤔 What does "Consolidate play counts for repeated tracks" mean?</summary>
+
+    When a track is played multiple times during the selected date range,  
+    the app groups all those plays into **one row** in the CSV.
+    
+    - ✅ `Playcount` shows **how many times** you played the same track
+    - 🕒 `Played Time` reflects the **most recent play**
+    - ❤️ `Loved` is set to 1 if **any** of the plays were loved
+    
+    This keeps your data **clean and compact**, without duplicates.
+    
+    </details>
+
 - Choose **where to save the CSV file**
 - Input via **username** or **profile URL**
+- 
 
 ---
 
