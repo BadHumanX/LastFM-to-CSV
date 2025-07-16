@@ -44,7 +44,7 @@ Built with Python and Tkinter for an easy-to-use GUI.
 
 ### 🚀 Method 1: Use the `.exe` file
 
-> 👉 [Download from Releases]([https://github.com/your-repo/releases](https://github.com/BadHumanX/LastFM-to-CSV/releases/tag/new))  
+> 👉 [Download from Releases](https://github.com/your-repo/releases](https://github.com/BadHumanX/LastFM-to-CSV/releases/tag/new))  
 > No Python or installation required — just double-click and go.
 
 ### 🧪 Method 2: Run the Python script manually
