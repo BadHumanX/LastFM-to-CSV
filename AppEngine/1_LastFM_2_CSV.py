@@ -161,6 +161,5 @@ def main():
     save_csv(final_scrobbles, csv_filename)
     print(f"[✓] Saved {len(final_scrobbles)} scrobbles to {csv_filename}")
 
-
 if __name__ == "__main__":
     main()
