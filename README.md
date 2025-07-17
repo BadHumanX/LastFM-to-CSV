@@ -1,4 +1,4 @@
-# 🎧 Last.fm to CSV Exporter
+# 🎧 Last.fm to CSV Exporter (app & GUI)
 
 A simple, no-login desktop tool that lets you export your Last.fm listening history (scrobbles) to a structured `.csv` file.  
 Built with Python and Tkinter for an easy-to-use GUI.
