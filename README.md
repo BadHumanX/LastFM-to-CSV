@@ -45,6 +45,8 @@ Built with Python and Tkinter for an easy-to-use GUI.
 ### 🚀 Method 1: Use the `.exe` file
 
 > 👉 [Download from Releases](https://github.com/BadHumanX/LastFM-to-CSV/releases/tag/new)
+> <img width="862" height="672" alt="image" src="https://github.com/user-attachments/assets/e85fbcfd-f19e-4a90-ae28-a7550fd06915" />
+
  
 > No Python or installation required — just double-click and go.
 
