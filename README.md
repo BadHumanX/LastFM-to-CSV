@@ -51,6 +51,8 @@ Built with Python and Tkinter for an easy-to-use GUI.
 > No Python or installation required — just double-click and go.
 
 ### 🧪 Method 2: Run the Python script manually
+<img width="599" height="322" alt="image" src="https://github.com/user-attachments/assets/7d7ff07a-40fa-412a-b86c-0aafbc33f6c8" />
+
 
 #### 📦 Requirements
 
